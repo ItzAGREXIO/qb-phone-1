@@ -836,19 +836,19 @@ RegisterNUICallback('DeleteImage', function(image,cb)
 end)
 
 
---RegisterNUICallback('track-vehicle', function(data, cb)
---    local veh = data.veh
---    if findVehFromPlateAndLocate(veh.plate) then
---        QBCore.Functions.Notify("Your vehicle has been marked", "success")
---    else
---        QBCore.Functions.Notify("This vehicle cannot be located", "error")
---    end
---end)
-
 RegisterNUICallback('track-vehicle', function(data, cb)
     local veh = data.veh
-    TriggerEvent('flight-script-garages:client:trackVehicle', veh.plate)
+    if findVehFromPlateAndLocate(veh.plate) then
+        QBCore.Functions.Notify("Your vehicle has been marked", "success")
+    else
+        QBCore.Functions.Notify("This vehicle cannot be located", "error")
+    end
 end)
+
+--RegisterNUICallback('track-vehicle', function(data, cb)
+--    local veh = data.veh
+--    TriggerEvent('flight-script-garages:client:trackVehicle', veh.plate)
+--end)
 
 RegisterNUICallback('DeleteContact', function(data, cb)
     local Name = data.CurrentContactName

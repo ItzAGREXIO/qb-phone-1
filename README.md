@@ -1,6 +1,8 @@
 # qb-phone
+WIP (still work in progress)
+This is my redesign of the qb-phone.
+Any contribution in the phone's progress is appreciated
 Advanced Phone for QB-Core Framework :iphone:
-
 # License
 
     QBCore Framework
@@ -32,22 +34,12 @@ Advanced Phone for QB-Core Framework :iphone:
 
 
 ## Screenshots
-![Home](https://cdn.discordapp.com/attachments/921675245360922625/921675439783673897/home.jpg)
-![Bank](https://cdn.discordapp.com/attachments/921675245360922625/921675441142644756/bank.jpg)
-![Advert](https://cdn.discordapp.com/attachments/921675245360922625/921675440878415872/advert.jpg)
-![Mail](https://cdn.discordapp.com/attachments/921675245360922625/921675440278614068/mail.jpg)
-![Garage](https://cdn.discordapp.com/attachments/921675245360922625/921675439590760528/garage.jpg)
-![Garage Detail](https://cdn.discordapp.com/attachments/921675245360922625/921675441591422986/garage_in.jpg)
-![services](https://cdn.discordapp.com/attachments/921675245360922625/921675458670641152/services.jpg)
-![Houses](https://cdn.discordapp.com/attachments/921675245360922625/921675440005988362/house.jpg)
-![Racing](https://cdn.discordapp.com/attachments/921675245360922625/921675458423173140/race.jpg)
-![Crypto](https://cdn.discordapp.com/attachments/921675245360922625/921675457718517820/qbit.jpg)
-![Gallery](https://cdn.discordapp.com/attachments/921675245360922625/921675441381736448/gallery.jpg)
-![MEOS](https://cdn.discordapp.com/attachments/921675245360922625/921675440488341534/meos.jpg)
-![Twitter](https://cdn.discordapp.com/attachments/921675245360922625/921675459270438922/twitter.jpg)
-![Settings](https://cdn.discordapp.com/attachments/921675245360922625/921675458905513984/setting.jpg)
-![Whatsapp](https://cdn.discordapp.com/attachments/921675245360922625/921675459517906944/whatsapp.jpg)
-![Phone](https://cdn.discordapp.com/attachments/921675245360922625/921675440677064745/phone.jpg)
+![Home](https://cdn.discordapp.com/attachments/902862654903844914/959086943453474907/unknown.png)
+![Bank](https://cdn.discordapp.com/attachments/902862654903844914/959087154166911056/unknown.png)
+![Mail](https://cdn.discordapp.com/attachments/902862654903844914/959087027628933130/unknown.png)
+![Garage](https://cdn.discordapp.com/attachments/902862654903844914/959086989750177852/unknown.png)
+![Garage Detail](https://cdn.discordapp.com/attachments/902862654903844914/959087799703838761/unknown.png)
+![Twitter](https://cdn.discordapp.com/attachments/902862654903844914/959087159216861234/unknown.png)
 
 ## Features
 - Garages app to see your vehicle details

@@ -659,11 +659,11 @@ RegisterNUICallback('PayInvoice', function(data, cb)
         cb(CanPay)
     end, society, amount, invoiceId, senderCitizenId)
     TriggerServerEvent('qb-phone:server:BillingEmail', data, true)
-    TriggerServerEvent('flight-script-payments:Tickets:Give', amount, society)
-    if data.society == "vanilla" then TriggerServerEvent('flight-script-vanillaunicorn:Tickets:Give', data.amount) end
-    if data.society == "burgershot" then TriggerServerEvent('flight-script-burgershot:Tickets:Give', data.amount) end
-    if data.society == "tequilala" then TriggerServerEvent('flight-script-tequilala:Tickets:Give', data.amount) end
-    if data.society == "pizzathis" then TriggerServerEvent('flight-script-pizzathis:Tickets:Give', data.amount) end
+    TriggerServerEvent('jim-payments:Tickets:Give', amount, society)
+    if data.society == "vanilla" then TriggerServerEvent('jim-vanillaunicorn:Tickets:Give', data.amount) end
+    if data.society == "burgershot" then TriggerServerEvent('jim-burgershot:Tickets:Give', data.amount) end
+    if data.society == "tequilala" then TriggerServerEvent('jim-tequilala:Tickets:Give', data.amount) end
+    if data.society == "pizzathis" then TriggerServerEvent('jim-pizzathis:Tickets:Give', data.amount) end
 end)
 
 RegisterNUICallback('DeclineInvoice', function(data, cb)

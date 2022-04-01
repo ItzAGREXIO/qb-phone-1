@@ -298,11 +298,11 @@ body {
     left: 1.9vh;
     background: #ffffff30;
     border-radius: 20px;
-    transform: translateY(-50%, 0px);
+    transform: translateY(-5px);
     display: flex;
     align-items: center;
-    justify-content: space-between
-    padding;
+    justify-content: space-between;
+    padding: 16px;
     padding-top: 0vh;
     padding-right: 16px;
     padding-bottom: 1vh;

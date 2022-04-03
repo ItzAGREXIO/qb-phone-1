@@ -301,7 +301,7 @@ body {
     transform: translateY(-5px);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 16px;
     padding-top: 0vh;
     padding-right: 16px;

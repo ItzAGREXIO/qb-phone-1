@@ -119,8 +119,8 @@ body {
 /* Phone Container */
 .phone-frame {
     position: absolute;
-    /* height: 63vh; */
-    /* width: 31vh; */
+    height: 63vh;
+    width: 31vh;
     width: 30vh;
     bottom: 0;
     right: -1.9vh;

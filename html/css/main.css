@@ -119,9 +119,9 @@ body {
 /* Phone Container */
 .phone-frame {
     position: absolute;
-    height: 63vh;
+    height: 62.5vh;
     width: 31vh;
-    width: 30vh;
+    /* width: 30vh; */
     bottom: 0;
     right: -1.9vh;
     margin: 5vh;
@@ -297,7 +297,7 @@ body {
     width: 92%;
     right: 50%;
     bottom: 2vh;
-    left: 1.9vh;
+    left: 1.4vh;
     background: #ffffff45;
     border-radius: 20px;
     transform: translateY(-5px);
@@ -314,7 +314,8 @@ body {
 
 .phone-home-applications {
     position: absolute;
-    width: 100%;
+    width: 102%;
+    /* width: 100%; */
     right: 0.3vh;
     bottom: 30vh;
 }

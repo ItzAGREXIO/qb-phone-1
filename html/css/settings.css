@@ -20,6 +20,7 @@
 .settings-app-tab-appereance {
     position: absolute;
     top: 15vh;
+    right: 0.5vh;
     height: 100%;
     width: 100%;
 }
@@ -27,6 +28,7 @@
 .settings-app-tab-information {
     position: absolute;
     top: 30vh;
+    right: 0.5vh;
     height: 100%;
     width: 100%;
 }
